@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:yellow;
+      text-decoration: none; }
+.container{
+	width: 70%; margin: auto; 
+}
+header{
+	width: 100%; height: 53px; margin: 0
+}
+.logo{
+	width: 100px; height: auto; padding-top: 10px; margin: 0
+}
+header ul{
+	 display: flex; list-style: none; margin: 0
+}
+header ul li a{
+	text-decoration: none; padding: 25px; color: #3D3D3D
+}
+header ul li a:hover{
+	background-color: #D99DB9; color: white; 
+}
+.vien{
+	border-radius: 40px; position: relative; width:250px; padding: 8px; margin: 0
+}
+.icon{
+	position: absolute; padding-left: 8px; margin: 0
+}
+.vien-logo{
+	border: 1px solid #D99DB9; width: 100%; height: 120px; padding: 10px; margin: 0
+}
+.align-item-center{
+	align-items: center
+}
+.text-center{
+	text-align: center
+}
+.justify-around{
+	justify-content: space-around
+}
+.justify-between{
+	justify-content: space-between
+}
+.justify-center{
+	justify-content: center
+}
+.paddingtop-50{
+	padding-top: 50px
+}
+.paddingtop-20{
+	padding-top: 20px
+}
+.paddingtop-15{
+	padding-top: 15px
+}
+
+.paddingbottom-20{
+	padding-bottom: 20px
+}
+.img-100{
+	width: 100%; height: auto
+}
+.marginbottom-40{
+	margin-bottom: 40px
+}
+.img-10000{
+	width: 100%; height: auto; object-fit: contain
+}
+.text-den{
+	color: #131313
+}
+.gach-chan-den{
+	border-bottom: 2px solid #131313
+}
+
+.paddingle-20{	
+	padding-left: 20px
+
+}
+.text-vang{
+	color: yellow
+}
+.shadow{
+	width: 100%; min-height: 300px; box-shadow: 5px 5px 5px black
+}
+section{
+	background-color: #01020E
+}
+.text-trang{
+	color: #E7E7E7
+}
+footer{
+	width: 100%; min-height: 200px; background-color: white
+}
+footer ul{
+	display: flex; list-style: none
+}
+footer ul li a{
+	text-decoration: none; padding-left: 15px; color: #3D3D3D; text-align: center; padding-right: 15px; 
+}
+footer ul li a:hover{
+	color: darkred
+}
+.text-nho{
+	font-size: 14px
+}
+#Howl{
+	background-color: #D9E8E4; 
+}
+.paddingle-100{
+	padding-left: 100px
+}
+.text-xanhbien{
+	color: #2F4F64
+}.gach-chan{
+	border-bottom: 2px solid  #2F4F64
+}
+.paddingright-50{
+	padding-right: 50px
+}
+#vdlh{
+	background-color: #EFE3E3; 
+}
+.text-do{
+	color: darkred
+}
+.gach-chan-do{
+	border-bottom: 2px solid darkred
+}
+#domdom{
+	background-color: #000000
+}
+.text-trang{
+	color: #FFFBDE
+}
+.text-trang-bu{
+	color: #FBEF6B
+}
+.gach-chan-trang{
+	border-bottom: 2px solid #FBEF6B
+}
+.paddingtop-200{
+	padding-top: 200px
+}
+.gach-doc{
+	border-left: 2px solid #FBEF6B
+}
+#totoro{
+	background-color: #AFCB96
+}
